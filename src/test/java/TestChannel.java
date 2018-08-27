@@ -4,7 +4,7 @@ import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/main/resources/features/CreateChannel.feature",tags = "@Crear-Canal"
+        features = "src/main/resources/features/editChannel.feature",tags = "@Editar-Canal"
         ,glue={"co/com/cliente/proyecto/test/stepdefinition/"}
         ,format = {"pretty", "html:target/Destination"}
 )
